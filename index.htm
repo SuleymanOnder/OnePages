@@ -13,8 +13,28 @@
 </head>
 
 <body>
-    <!---->
-    <!-- <i class="fas fa-5x fa-search"></i> -->
+
+    <nav>
+        <div class="container">
+            <div id="logo">
+                <a href="" class="OnePage">
+                    <img id="logo-image" src="image/images.jpg" alt="One Page">
+                    <!-- One Pages -->
+                </a>
+            </div>
+            <div id="menu">
+                <ul class="upperCase">
+                    <li class="menu-item"><a href="#">Home</a><i class="fas fa-house-user"></i></li>
+                    <li class="menu-item"><a href="#division-3-career">Career</a><i class="fas fa-user-check"></i></li>
+                    <li class="menu-item"><a href="#division-1-main">News</a><i class="fas fa-newspaper"></i></li>
+                    <li class="menu-item"><a href="#">Contact</a><i class="fas fa-id-card"></i></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
     <header>
         <div class="image-header"></div>
         <div class="theme-header">
@@ -23,6 +43,134 @@
             <a href="#" class="btn-header">Daha Fazla ...</a>
         </div>
     </header>
+
+    <div><img src="image/1.jpg" alt=""></div>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>Career</li>
+            <li>News</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+        <!-- section1 -->
+        <section id="division-1-main">
+            <div class="piece">
+                <h2>Ana Başlık Alanı</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis voluptatibus similique quae fuga
+                    unde? Beatae corporis, facere quisquam molestiae illo adipisci aperiam exercitationem explicabo!
+                    Aliquam non accusantium inventore explicabo. Eius nemo dolorum quod consequuntur eum amet tenetur,
+                    deleniti corporis fugiat.</p>
+            </div>
+        </section>
+        <!-- section2 -->
+        <section id="division-2-list">
+            <ul>
+                <li>
+                    <div class="area">
+                        <img src="image/1.jpg" alt="">
+                        <div class="area-div">
+                            <h3>Frontend</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea in aliquam, beatae, quasi
+                                quo minima asperiores laboriosam quibusdam assumenda modi fugiat reiciendis blanditiis
+                                consectetur numquam nostrum qui libero! Culpa error voluptates nulla voluptas similique!
+                                Dolorum repellat porro nam alias distinctio!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="area">
+                        <img src="image/2.jpg" alt="">
+                        <div class="area-div">
+                            <h3>Backend</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, earum?</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="area">
+                        <img src="image/3.jpg" alt="">
+                        <div class="area-div">
+                            <h3>Web Services</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, cupiditate.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="area">
+                        <img src="image/4.jpg" alt="">
+                        <div class="area-div">
+                            <h3>DB</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tempore?</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- section-3 -->
+        <!-- section#division-3-career>(div#left-main>img)+(div#right-main>p{lorem}+(ul>li{teknoloji $}*4)) -->
+        <section id="division-3-career" class="clearfix">
+            <div id="left-main"><img src="" alt=""></div>
+            <div id="right-main">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt earum dignissimos sunt voluptatem
+                    nulla debitis magnam vitae architecto sit pariatur, molestias aspernatur fugiat soluta quisquam nisi
+                    aut odit officia, maiores ab voluptatibus ipsum facere quam. Delectus ut accusamus vitae obcaecati?
+                </p>
+                <ul>
+                    <li>teknoloji 1</li>
+                    <li>teknoloji 2</li>
+                    <li>teknoloji 3</li>
+                    <li>teknoloji 4</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div id="bottom">
+        <a href="#top"><i class="fas fa-arrow-up"></i>Top</a>
+
+    </div>
+
+    <section id="form-email">
+        <form action="" method="post">
+
+
+            <div class="form-group-all">
+
+                <div class="form-group">
+                    <input class="form-control" type="text" name="fullName" id="fullName"
+                        placeholder="Ad Soyad giriniz">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" type="email" name="email" id="email"
+                        placeholder="Email adresinizi giriniz">
+                </div>
+
+                <div class="form-group">
+                    <textarea name="" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <input class="btn" type="reset" value="Temizle">
+                <input class="btn" type="submit" value="Gönder">
+                
+
+            </div>
+
+
+        </form>
+    </section>
+
+    <footer>
+        <div id="division-footer">
+            <a href="">One Pages</a>
+            <p>Bütün haklar saklıdır. &copy;</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
